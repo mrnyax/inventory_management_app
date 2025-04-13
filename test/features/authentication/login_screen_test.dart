@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:inventory_management_app/features/authentication/login_screen.dart';
-import 'package:inventory_management_app/providers/auth_provider.dart';
+import 'package:invento/features/authentication/login_screen.dart';
+import 'package:invento/providers/auth_provider.dart';
 
 void main() {
   testWidgets('Login screen displays fields and button', (WidgetTester tester) async {

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:inventory_management_app/features/home/home_screen.dart';
-import 'package:inventory_management_app/providers/auth_provider.dart';
+import 'package:invento/features/home/home_screen.dart';
+import 'package:invento/providers/auth_provider.dart';
 
 void main() {
   testWidgets('Home screen renders and logs out', (WidgetTester tester) async {
-    final container = ProviderContainer(overrides: [
-      authProvider.overrideWith((ref) => true),
-    ]);
+    final container = ProviderContainer(
+      overrides: [authProvider.overrideWith((ref) => true)],
+    );
 
     await tester.pumpWidget(
       UncontrolledProviderScope(

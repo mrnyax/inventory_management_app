@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:inventory_management_app/providers/auth_provider.dart';
+import 'package:invento/providers/auth_provider.dart';
 
 void main() {
   test("`authProvider` defaults to `false`", () {

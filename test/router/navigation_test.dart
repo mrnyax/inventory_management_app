@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:inventory_management_app/providers/auth_provider.dart';
-import 'package:inventory_management_app/router/app_router.dart';
+import 'package:invento/providers/auth_provider.dart';
+import 'package:invento/router/app_router.dart';
 
 void main() {
   testWidgets('Navigates to login if not authenticated', (

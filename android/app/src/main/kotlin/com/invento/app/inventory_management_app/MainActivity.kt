@@ -1,4 +1,4 @@
-package com.invento.app.inventory_management_app
+package com.invento.app.invento
 
 import io.flutter.embedding.android.FlutterActivity
 
